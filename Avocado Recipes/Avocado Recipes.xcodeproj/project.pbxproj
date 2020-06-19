@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0A74898249D4A0E005A5A97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A74897249D4A0E005A5A97 /* AppDelegate.swift */; };
+		D0A7489A249D4A0E005A5A97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A74899249D4A0E005A5A97 /* SceneDelegate.swift */; };
+		D0A7489D249D4A0E005A5A97 /* Avocado_Recipes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0A7489B249D4A0E005A5A97 /* Avocado_Recipes.xcdatamodeld */; };
+		D0A7489F249D4A0E005A5A97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A7489E249D4A0E005A5A97 /* ContentView.swift */; };
+		D0A748A1249D4A0F005A5A97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0A748A0249D4A0F005A5A97 /* Assets.xcassets */; };
+		D0A748A4249D4A0F005A5A97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0A748A3249D4A0F005A5A97 /* Preview Assets.xcassets */; };
+		D0A748A7249D4A0F005A5A97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A748A5249D4A0F005A5A97 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0A74894249D4A0E005A5A97 /* Avocado Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avocado Recipes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A74897249D4A0E005A5A97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0A74899249D4A0E005A5A97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D0A7489C249D4A0E005A5A97 /* Avocado_Recipes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Avocado_Recipes.xcdatamodel; sourceTree = "<group>"; };
+		D0A7489E249D4A0E005A5A97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0A748A0249D4A0F005A5A97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0A748A3249D4A0F005A5A97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0A748A6249D4A0F005A5A97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0A748A8249D4A0F005A5A97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0A74891249D4A0E005A5A97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0A7488B249D4A0E005A5A97 = {
+			isa = PBXGroup;
+			children = (
+				D0A74896249D4A0E005A5A97 /* Avocado Recipes */,
+				D0A74895249D4A0E005A5A97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0A74895249D4A0E005A5A97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0A74894249D4A0E005A5A97 /* Avocado Recipes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0A74896249D4A0E005A5A97 /* Avocado Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				D0A74897249D4A0E005A5A97 /* AppDelegate.swift */,
+				D0A74899249D4A0E005A5A97 /* SceneDelegate.swift */,
+				D0A7489E249D4A0E005A5A97 /* ContentView.swift */,
+				D0A748A0249D4A0F005A5A97 /* Assets.xcassets */,
+				D0A748A5249D4A0F005A5A97 /* LaunchScreen.storyboard */,
+				D0A748A8249D4A0F005A5A97 /* Info.plist */,
+				D0A7489B249D4A0E005A5A97 /* Avocado_Recipes.xcdatamodeld */,
+				D0A748A2249D4A0F005A5A97 /* Preview Content */,
+			);
+			path = "Avocado Recipes";
+			sourceTree = "<group>";
+		};
+		D0A748A2249D4A0F005A5A97 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D0A748A3249D4A0F005A5A97 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0A74893249D4A0E005A5A97 /* Avocado Recipes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0A748AB249D4A0F005A5A97 /* Build configuration list for PBXNativeTarget "Avocado Recipes" */;
+			buildPhases = (
+				D0A74890249D4A0E005A5A97 /* Sources */,
+				D0A74891249D4A0E005A5A97 /* Frameworks */,
+				D0A74892249D4A0E005A5A97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Avocado Recipes";
+			productName = "Avocado Recipes";
+			productReference = D0A74894249D4A0E005A5A97 /* Avocado Recipes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0A7488C249D4A0E005A5A97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Etisalat;
+				TargetAttributes = {
+					D0A74893249D4A0E005A5A97 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = D0A7488F249D4A0E005A5A97 /* Build configuration list for PBXProject "Avocado Recipes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0A7488B249D4A0E005A5A97;
+			productRefGroup = D0A74895249D4A0E005A5A97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0A74893249D4A0E005A5A97 /* Avocado Recipes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0A74892249D4A0E005A5A97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A748A7249D4A0F005A5A97 /* LaunchScreen.storyboard in Resources */,
+				D0A748A4249D4A0F005A5A97 /* Preview Assets.xcassets in Resources */,
+				D0A748A1249D4A0F005A5A97 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0A74890249D4A0E005A5A97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A7489D249D4A0E005A5A97 /* Avocado_Recipes.xcdatamodeld in Sources */,
+				D0A74898249D4A0E005A5A97 /* AppDelegate.swift in Sources */,
+				D0A7489F249D4A0E005A5A97 /* ContentView.swift in Sources */,
+				D0A7489A249D4A0E005A5A97 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0A748A5249D4A0F005A5A97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0A748A6249D4A0F005A5A97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0A748A9249D4A0F005A5A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0A748AA249D4A0F005A5A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0A748AC249D4A0F005A5A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Avocado Recipes/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ZPBKZ7R98;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Avocado Recipes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Etisalat.Avocado-Recipes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0A748AD249D4A0F005A5A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Avocado Recipes/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ZPBKZ7R98;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Avocado Recipes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Etisalat.Avocado-Recipes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0A7488F249D4A0E005A5A97 /* Build configuration list for PBXProject "Avocado Recipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A748A9249D4A0F005A5A97 /* Debug */,
+				D0A748AA249D4A0F005A5A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0A748AB249D4A0F005A5A97 /* Build configuration list for PBXNativeTarget "Avocado Recipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A748AC249D4A0F005A5A97 /* Debug */,
+				D0A748AD249D4A0F005A5A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D0A7489B249D4A0E005A5A97 /* Avocado_Recipes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D0A7489C249D4A0E005A5A97 /* Avocado_Recipes.xcdatamodel */,
+			);
+			currentVersion = D0A7489C249D4A0E005A5A97 /* Avocado_Recipes.xcdatamodel */;
+			path = Avocado_Recipes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D0A7488C249D4A0E005A5A97 /* Project object */;
+}
