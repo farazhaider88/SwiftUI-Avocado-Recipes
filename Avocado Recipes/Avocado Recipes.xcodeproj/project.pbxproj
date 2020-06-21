@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D096CC52249F64BF009BC49A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096CC51249F64BF009BC49A /* HeaderView.swift */; };
 		D0A74898249D4A0E005A5A97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A74897249D4A0E005A5A97 /* AppDelegate.swift */; };
 		D0A7489A249D4A0E005A5A97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A74899249D4A0E005A5A97 /* SceneDelegate.swift */; };
 		D0A7489D249D4A0E005A5A97 /* Avocado_Recipes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0A7489B249D4A0E005A5A97 /* Avocado_Recipes.xcdatamodeld */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D096CC51249F64BF009BC49A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		D0A74894249D4A0E005A5A97 /* Avocado Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avocado Recipes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A74897249D4A0E005A5A97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0A74899249D4A0E005A5A97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			children = (
 				D0A7489E249D4A0E005A5A97 /* ContentView.swift */,
 				D0A748B1249D6EAE005A5A97 /* AvocadosView.swift */,
+				D096CC51249F64BF009BC49A /* HeaderView.swift */,
 				D0A748B3249D6ECF005A5A97 /* RipeningStagesView.swift */,
 				D0A748B5249D6EE6005A5A97 /* SettingsView.swift */,
 				D0A748B7249D6EFB005A5A97 /* AppView.swift */,
@@ -186,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0A748B6249D6EE6005A5A97 /* SettingsView.swift in Sources */,
+				D096CC52249F64BF009BC49A /* HeaderView.swift in Sources */,
 				D0A748B2249D6EAE005A5A97 /* AvocadosView.swift in Sources */,
 				D0A7489D249D4A0E005A5A97 /* Avocado_Recipes.xcdatamodeld in Sources */,
 				D0A74898249D4A0E005A5A97 /* AppDelegate.swift in Sources */,
