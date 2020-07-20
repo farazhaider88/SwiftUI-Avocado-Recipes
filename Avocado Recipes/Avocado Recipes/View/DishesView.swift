@@ -28,7 +28,9 @@ struct DishesView: View {
                 HStack(){
                     Divider()
                 }
-                Image(systemName: "heart.circle").imageScale(.large).font(Font.title.weight(.ultraLight))
+                Image(systemName: "heart.circle")
+                    .imageScale(.large)
+                    .font(Font.title.weight(.ultraLight))
                 HStack(){
                     Divider()
                 }
@@ -45,7 +47,9 @@ struct DishesView: View {
                 RightView(title: "Smoothies", iconName: "icon-smoothies")
                 Divider()
             }
-        }.font(.system(.callout,design:.serif)).foregroundColor(.gray).padding(.horizontal).frame(maxHeight:220)
+        }.font(.system(.callout,design:.serif))
+            .foregroundColor(.gray).padding(.horizontal)
+            .frame(maxHeight:220)
     }
 }
 
